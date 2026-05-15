@@ -126,7 +126,7 @@
           "FlingDuration": 1
         },
         "Strike": {
-          "Cooldown": 2.5,
+          "Cooldown": 5,
           "Damage": 25,
           "BoxSize": { "X": 5, "Y": 5, "Z": 6.25 },
           "BoxOffset": { "X": 0, "Y": 0, "Z": -2 },
