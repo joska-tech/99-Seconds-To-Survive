@@ -126,8 +126,8 @@
           "FlingDuration": 1
         },
         "Strike": {
-          "Cooldown": 5,
-          "Damage": 25,
+          "Cooldown": 3,
+          "Damage": 75,
           "BoxSize": { "X": 5, "Y": 5, "Z": 6.25 },
           "BoxOffset": { "X": 0, "Y": 0, "Z": -2 },
           "AnimationLength": 0.6,
