@@ -1,0 +1,153 @@
+{
+  "Survivors": {
+    "Abilities": {
+      "Blast": {
+        "Cooldown": 25,
+        "ThrowForce": 125,
+        "ThrowUpBias": 0.5,
+        "ExplosionRadius": 12,
+        "SpeedAmount": 9,
+        "SpeedDuration": 4,
+        "StopDuration": 1.2
+      },
+      "Bombard": {
+        "Cooldown": 30,
+        "ExplosionRadius": 8,
+        "RocketSpeed": 125,
+        "MaxDistance": 200,
+        "HitboxCheckRate": 0.03,
+        "StunTime": 3,
+        "SlowTime": 3,
+        "SlowAmount": 4,
+        "KnockbackForce": 500000,
+        "KnockbackSpeed": 110
+      },
+      "Dart": {
+        "Cooldown": 35,
+        "MinDistance": 5,
+        "MaxDistance": 300,
+        "RetriggerWindow": 3.5,
+        "MinDashDuration": 0.2,
+        "MaxDashDuration": 4,
+        "RaycastPadding": 2,
+        "BlastRadius": 8,
+        "MinFlingPower": 5,
+        "MaxFlingPower": 75,
+        "FlingHeight": 30,
+        "FlingDuration": 1.2,
+        "MinSlow": 1,
+        "MaxSlow": 8
+      },
+      "Destruct": {
+        "Cooldown": 20,
+        "SpikeCount": 6,
+        "SpikeSpacing": 2.25,
+        "SpikeDepth": 2,
+        "SpikeHeightMax": 9,
+        "SpikeHeightMin": 5,
+        "SpikeWidthMax": 4.2,
+        "SpikeWidthMin": 2.4,
+        "SpikeYawRange": 60,
+        "SpikeStagger": 0.03,
+        "SnapTime": 0.07,
+        "SinkTweenTime": 0.3,
+        "WaveCount": 3,
+        "WaveSpacing": 5,
+        "WaveDelay": 0.1,
+        "WaveLifetime": 3.5,
+        "FlingWindow": 1,
+        "FlingForce": 50,
+        "FlingUp": 0.2,
+        "RagdollDuration": 1.5
+      },
+      "Radar": {
+        "Cooldown": 25,
+        "HighlightTransparency": 0.5,
+        "PowerTwiceRadius": 15
+      },
+      "Remedy": {
+        "Cooldown": 5,
+        "HealRadius": 10,
+        "HealRate": 2,
+        "PlaceDistance": 2,
+        "MaxDuration": 15,
+        "ExpiryCooldownBonus": 35,
+        "PulseWarning": 5
+      },
+      "Slurp": {
+        "Cooldown": 25,
+        "SpeedBoost": 7,
+        "RetriggerWindow": 4
+      },
+      "Smack": {
+        "Cooldown": 25,
+        "StunDuration": 4,
+        "StopDuration": 1.7,
+        "HitboxSize": { "X": 5, "Y": 4, "Z": 9 },
+        "HitboxReach": 4.5
+      }
+    }
+  },
+  "Killers": {
+    "BloomEye": {
+      "Abilities": {
+        "Beckoning": {
+          "Cooldown": 25,
+          "Radius": 20,
+          "DespawnTime": 75,
+          "DebuffDuration": 1,
+          "PullForce": 40,
+          "PullDeadZone": 5,
+          "PullMaxForce": 190000
+        },
+        "Reap": {
+          "Cooldown": 15,
+          "ExplosionRadius": 12.5,
+          "ExplosionDamage": 35,
+          "BlightDuration": 3,
+          "FlingPower": 30,
+          "FlingDuration": 1,
+          "StaggerMin": 0.25,
+          "StaggerIncrease": 0.25,
+          "StaggerVariation": 0.2,
+          "NoSprintDuration": 2
+        },
+        "Sow": {
+          "Cooldown": 3,
+          "MaxFlowers": 5,
+          "DetectionRadius": 7,
+          "LingerTime": 0.15,
+          "PollInterval": 0.3,
+          "ExplosionRadius": 7,
+          "ExplosionDamage": 30,
+          "PlaceOffsetFront": 3,
+          "PlaceOffsetRight": 0.75,
+          "FlingPower": 30,
+          "FlingDuration": 1
+        },
+        "Strike": {
+          "Cooldown": 2.5,
+          "Damage": 25,
+          "BoxSize": { "X": 5, "Y": 5, "Z": 6.25 },
+          "BoxOffset": { "X": 0, "Y": 0, "Z": -2 },
+          "AnimationLength": 0.6,
+          "SlowAmount": 2
+        },
+        "VineGrapple": {
+          "Cooldown": 20,
+          "VineRange": 90,
+          "VineSpeed": 160,
+          "VineHitboxRadius": 2,
+          "VineHitboxInterval": 0.015,
+          "VineSegmentSpacing": 1.25,
+          "MaxDamage": 35,
+          "BlightDuration": 7.5,
+          "MinTravelTime": 0.075,
+          "MaxTravelTime": 0.5,
+          "FlingPower": 90,
+          "FlingDuration": 0.75
+        }
+      }
+    }
+  }
+}
